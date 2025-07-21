@@ -7,7 +7,7 @@
   "source": "index.ts",
   "scripts": {
     "build": "npx parcel build",
-    "publish": "npm run build && npm publish --access public"
+    "push": "npm run build && npm publish --access public"
   },
   "keywords": [],
   "author": "",
