@@ -1,0 +1,25 @@
+{
+  "name": "unicompartment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "source": "index.ts",
+  "scripts": {
+    "build": "npx parcel build",
+    "publish": "npm run build ++ npm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.15.4",
+    "@parcel/transformer-typescript-types": "^2.15.4",
+    "parcel": "^2.15.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ses": "^1.14.0"
+  }
+}
