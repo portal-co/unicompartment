@@ -1,4 +1,4 @@
-import { getGlobalIntrinsics } from "../node_modules/ses/src/intrinsics.js";
+import { getGlobalIntrinsics } from "ses/src/intrinsics.js";
 export function createRaw({ globalThis = eval?.("this"), } = {}) {
     return class _UniCompartment {
         static #evaluatorFactory = "eval" in globalThis

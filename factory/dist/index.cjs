@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createRaw = createRaw;
-const intrinsics_js_1 = require("../node_modules/ses/src/intrinsics.cjs");
+const intrinsics_js_1 = require("ses/src/intrinsics.js");
 function createRaw({ globalThis = eval?.("this"), } = {}) {
     return class _UniCompartment {
         static #evaluatorFactory = "eval" in globalThis
