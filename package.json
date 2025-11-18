@@ -21,10 +21,12 @@
   },
   "dependencies": {
     "ses": "^1.14.0",
-    "@portal-solutions/unicompartment.factory": "^0.0.1"
+    "@portal-solutions/unicompartment.factory": "^0.0.1",
+     "@portal-solutions/unicompartment.core": "^0.0.1"
   },
   "workspaces": [
     ".",
-    "factory"
+    "factory",
+    "core"
   ]
 }

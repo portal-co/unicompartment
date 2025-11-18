@@ -1,5 +1,5 @@
 import type { CompartmentEvaluateOptions, CompartmentOptions } from "ses";
-import { getGlobalIntrinsics } from "./node_modules/ses/src/intrinsics.js";
+import { getGlobalIntrinsics } from "../node_modules/ses/src/intrinsics.js";
 export function createRaw({
   globalThis = eval?.("this"),
 }: { globalThis?: typeof self } = {}): typeof Compartment {
