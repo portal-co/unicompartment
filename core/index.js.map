@@ -1,1 +1,0 @@
-{"mappings":"","sources":["core/index.ts"],"sourcesContent":["export type { ModuleSource } from \"ses\";\n"],"names":[],"version":3,"file":"index.js.map"}
